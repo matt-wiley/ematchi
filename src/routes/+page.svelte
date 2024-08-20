@@ -1,2 +1,5 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import Game from "./Game.svelte";
+    import '../styles.css'; // This import is enabled by Vite, not Svelte
+</script>
+<Game />
